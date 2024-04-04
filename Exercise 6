@@ -1,0 +1,18 @@
+'''Display numbers divisible by 5 from a list.
+Iterate the given list of numbers and print only those numbers which are divisible by 5'''
+
+def display_divisible_by_5(numbers):
+    for num in numbers:
+        if num % 5 == 0:
+            print(num)
+
+# Test case
+display_divisible_by_5([20,55,45,34,23,65,75])
+
+
+
+
+
+
+
+
