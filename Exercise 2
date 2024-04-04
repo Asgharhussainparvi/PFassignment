@@ -1,0 +1,11 @@
+''': Print the sum of the current number and the previous number.
+Write a program to iterate the first 10 numbers, and in each iteration, print the sum of the current
+and previous number'''
+
+previous_number = 0
+
+for i in range(10):
+    current_number = i
+    sum_of_numbers = current_number + previous_number
+    print("Current number:", current_number, "Previous number:", previous_number, "Sum:", sum_of_numbers)
+    previous_number = current_number
