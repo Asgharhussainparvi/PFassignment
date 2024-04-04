@@ -1,0 +1,17 @@
+'''Remove first n characters from a string
+Write a program to remove characters from a string starting from zero up to n and return a new
+string.
+For example:
+remove_chars("pynative", 4) so output must be tive. Here, we need to remove the first four
+characters from a string.
+'''
+
+def delete_character(input_string, n):
+  if n <= len(input_string):
+    for i in range(len(input_string)):
+        return input_string[n:]
+  else:
+    print("n must be less than length of string")
+
+delete_character("asghar",4)
+
