@@ -1,0 +1,16 @@
+'''Write a Program to extract each digit from an integer in the reverse order.
+For example, If the given int is 7536, the output shall be “6 3 5 7“, with a space separating the
+digits'''
+
+
+def extract_digits_reverse(number):
+    # Convert the number to a string and reverse it
+    num_str = str(number)[::-1]
+    # Split the string into individual digits and join them with a space
+    result = ' '.join(num_str)
+    return result
+
+# Test case
+number = 7536
+result = extract_digits_reverse(number)
+print("Output:", result)
