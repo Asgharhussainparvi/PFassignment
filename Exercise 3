@@ -1,0 +1,15 @@
+'''Print characters from a string that are present at an even index number
+Write a program to accept a string from the user and display characters that are present at an
+even index number.
+For example, str = "pynative" so you should display ‘p’, ‘n’, ‘t’, ‘v’.'''
+
+
+def String_Display(input_String):
+    for i in range(len(input_String)):
+         if i%2 == 0:
+             print(input_String[i], end ='')
+
+input_String = input("enter your String :")
+
+
+String_Display(input_String)
