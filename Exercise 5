@@ -1,0 +1,13 @@
+''' Check if the first and last number of a list is the same.
+Write a program to print “First and Last Numbers are same” if the first and last numbers of a
+given list are the same. If the numbers are different then print “Not Same”.'''
+
+def check_first_and_last_numbers(numbers):
+    if numbers[0] == numbers[-1]:
+        return "First and Last Numbers are same"
+    else:
+        return "Not Same"
+
+# Example usage:
+numbers = [1, 2, 3, 4, 1]
+print(check_first_and_last_numbers(numbers))
